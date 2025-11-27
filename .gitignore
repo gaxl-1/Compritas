@@ -1,0 +1,33 @@
+# Archivos de compilación de Gradle
+.gradle/
+build/
+*/build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Archivos locales de Android Studio
+.idea/
+*.iml
+.DS_Store
+local.properties
+
+# Archivos de compilación
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Archivos de log
+*.log
+
+# Archivos de NDK
+obj/
+
+# Archivos de configuración local de Firebase
+# IMPORTANTE: Mantener google-services.json fuera del repositorio
+google-services.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
