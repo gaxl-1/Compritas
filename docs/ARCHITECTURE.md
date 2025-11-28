@@ -16,7 +16,7 @@ graph TD
     subgraph Data Layer
         VM --> Repo[ShoppingListRepository]
         Repo --> Local[Room Database]
-        Repo --> Remote[Firebase (Future)]
+        Repo --> Remote["Firebase (Future)"]
     end
 
     subgraph Utils
